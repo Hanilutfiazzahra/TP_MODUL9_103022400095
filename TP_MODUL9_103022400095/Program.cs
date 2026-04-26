@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+
         CovidConfig config = CovidConfig.LoadConfig();
 
         Console.WriteLine($"Berapa suhu badan anda saat ini? Dalam nilai {config.satuan_suhu}");
